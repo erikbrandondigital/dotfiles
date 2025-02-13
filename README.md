@@ -1,8 +1,8 @@
 # About (Work In Progress)
-This repo contains all my configuration dot files that I use everyday as a part of my developer workflow. The purpose of this repo is to make it easy to synchronize configuration changes across my devices using Git, GitHub, and GNU Stow. Embracing the Keep It Simple Stupid (KISS) design principle, all dot files are stored in a local directory and put into place using GNU Stow which essentially creates symlinks between each dot file in this repo and it's intended path in the user's home directory. With this setup I am able to make changes to my configuration at a moments notice on any device, commit it to GitHub and pull down the config changes on any other device. Pretty simple, right?
+This repo contains all my configuration dot files that I use everyday as a part of my developer workflow. The purpose of this repo is to make it easy to synchronize configuration changes across my devices using Git, GitHub, and GNU Stow. Embracing the Keep It Simple Stupid (KISS) design principle, all dot files are stored in a local directory and put into place using GNU Stow which essentially creates symlinks between each dot file in this repo and its intended path in the user's home directory. With this setup I am able to make changes to my configuration at a moments notice on any device, commit it to GitHub and pull down the config changes on any other device. Pretty simple, right?
 
-## What's Included?
-Below is a list of all the applications, frameworks, and tools with config files included in this repo. If you want to try my config out on your machine, you will need to install these applications, except for Starship which is included with Oh My Zsh as a plugin. Npiperelay is only necessary if you are on Windows Subsystem for Linux (WSL) and want to share SSH agent keys between the Windows and Linux hosts. I use it to access GitHub SSH keys in KeepassXC running on the Windows Host.
+## What Is Included?
+Below is a list of all the applications, frameworks, and tools with config files included in this repo. If you want to try my config out on your machine, you will need to install these applications. Npiperelay is only necessary if you are on Windows Subsystem for Linux (WSL) and want to share SSH agent keys between the Windows and Linux hosts. I use it to access GitHub SSH keys in KeepassXC running on the Windows Host.
 
 - [Git](https://git-scm.com)
 - [Neovim](https://github.com/neovim/neovim) + [NvChad](https://github.com/NvChad/NvChad)
@@ -14,7 +14,7 @@ Below is a list of all the applications, frameworks, and tools with config files
 - [Timewarrior](https://github.com/GothenburgBitFactory/timewarrior)
 - [Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) + [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
 
-## Todos
+## To Dos
 - [ ] Add install scripts for the required applications, frameworks & tools for:
   - [ ] Windows
   - [ ] MacOS (Homebrew / iTerm2)
