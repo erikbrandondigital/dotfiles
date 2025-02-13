@@ -1,0 +1,3 @@
+# Ignore Taskwarrior & Timewarrior Data
+.config/taskwarrior/taskchampion.sqlite3
+.config/timewarrior/data/*

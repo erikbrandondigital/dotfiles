@@ -1,0 +1,6 @@
+[core]
+	editor = nvim
+[commit]
+	template = ~/.gitmessage
+[init]
+	defaultbranch = main
