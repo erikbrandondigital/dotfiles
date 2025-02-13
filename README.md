@@ -29,13 +29,21 @@ Below is a list of all the applications, frameworks, and tools with config files
 
 # Install
 1. Clone this repo on your machine to a `.dotfiles` directory:
-        git clone https://github.com/erikbrandondigital/dotfiles.git ~/.dotfiles
+```
+git clone https://github.com/erikbrandondigital/dotfiles.git ~/.dotfiles
+```
 2. In your terminal, navigate to the repo directory:
-        cd ~/.dotfiles
+```
+cd ~/.dotfiles
+```
 3. Run GNU Stow to create the symlinks for each application, framework or tool automatically.
-        stow .
+```
+stow .
+```
 4. Reload Zsh to reload all config files.
-        source ~/.zshrc
+```
+source ~/.zshrc
+```
 
 # Post-Install Checks
 1. Run `nvim` to see if NvChad starts up.
@@ -48,8 +56,14 @@ Below is a list of all the applications, frameworks, and tools with config files
 If you would like to uninstall my configuration and cleanup your machine, follow the steps below to remove the symlinks created by GNU Stow and delete the local copy of the repo. I'll leave the uninstallation of the other applications up to you.
 
 1. In your terminal, navigate the repo directory:
-        cd ~/dotfiles
+```
+cd ~/.dotfiles
+```
 2. Remove GNU Stow Symlinks from you home directory:
-        stow -D .
+```
+stow -D .
+```
 3. Remove the repo from your machine:
-        rm -rf ~/dotfiles
+```
+rm -rf ~/.dotfiles
+```
