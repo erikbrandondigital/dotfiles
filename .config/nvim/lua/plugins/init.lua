@@ -4,7 +4,16 @@ return {
     -- event = 'BufWritePre', -- uncomment for format on save
     opts = require "configs.conform",
   },
-
+  {
+    "sphamba/smear-cursor.nvim",
+    lazy = false,
+    opts = {},
+  },
+  {
+    "karb94/neoscroll.nvim",
+    lazy = false,
+    opts = {},
+  },
   -- These are some examples, uncomment them if you want to see them work!
   {
     "neovim/nvim-lspconfig",

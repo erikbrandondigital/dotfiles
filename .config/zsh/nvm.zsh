@@ -1,3 +1,9 @@
+# Return early if Android (Termux)
+if [ -n "$TERMUX_VERSION"]; then
+  echo "Android (Termux) Detected -- Skipped NVM Init"
+  return
+fi
+
 # Load Node Version Manager (nvm)
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
