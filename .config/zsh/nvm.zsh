@@ -1,5 +1,5 @@
 # Return early if Android (Termux)
-if [ -n "$TERMUX_VERSION"]; then
+if [ -n "$TERMUX_VERSION" ]; then
   echo "Android (Termux) Detected -- Skipped NVM Init"
   return
 fi
