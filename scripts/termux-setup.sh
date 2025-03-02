@@ -28,7 +28,6 @@ curl -fsSL https://pyenv.run | bash
 # Getting Dotfiles
 echo -ne 'Retrieving & Setting Up Dotfiles...\r'
 rm -rf ~/.zshrc
-git clone --quiet https://github.com/erikbrandondigital/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 stow .
 cd ~
