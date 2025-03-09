@@ -6,7 +6,7 @@ echo -ne 'Updating Packages...\r'
 pkg update && pkg upgrade -y
 
 echo -ne 'Installing Required Packages...\r'
-pkg install -y git neovim starship stow taskwarrior timewarrior wget zsh
+pkg install -y git neovim starship stow wget zsh
 
 # Install Oh My ZSH & Plugins
 echo -ne 'Installing Oh My ZSH...\r'
@@ -32,7 +32,7 @@ cd ~/.dotfiles
 stow .
 cd ~
 
-# Setup Nerdfont 
+# Setup Nerdfont
 echo -ne 'Setting up Nerdfont...\r'
 curl -fsSOL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraCode.tar.xz
 mkdir ~/FiraCode && tar -xf FiraCode.tar.xz -C ~/FiraCode

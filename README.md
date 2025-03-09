@@ -10,8 +10,6 @@ Below is a list of all the applications, frameworks, and tools with config files
 - [npiperelay (Windows Subsystem for Linux (WSL) only)](https://github.com/jstarks/npiperelay)
 - [Python Version Manager (pyenv)](https://github.com/pyenv/pyenv)
 - [Starship](https://github.com/starship/starship)
-- [Taskwarrior](https://github.com/GothenburgBitFactory/taskwarrior)
-- [Timewarrior](https://github.com/GothenburgBitFactory/timewarrior)
 - [Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) + [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
 
 ## To Dos
@@ -25,7 +23,7 @@ Below is a list of all the applications, frameworks, and tools with config files
 # Requirements
 1. Since I use ZSH with the Oh My ZSH framework you will need to install Zsh & Oh My Zsh. 
     - Follow this [Oh My Zsh Guide](https://github.com/ohmyzsh/ohmyzsh/wiki) to install Zsh & Oh My Zsh.
-2. Install Git, GNU Stow, Neovim, NvChad, Node Version Manager (nvm), Python Version Manager (pyenv), Taskwarrior & Timewarrior.
+2. Install Git, GNU Stow, Neovim, NvChad, Node Version Manager (nvm), Python Version Manager (pyenv).
 
 # Install
 1. Clone this repo on your machine to a `.dotfiles` directory:
@@ -49,8 +47,6 @@ source ~/.zshrc
 1. Run `nvim` to see if NvChad starts up.
 2. Run `pyenv` to see if Python Version Manager (pyenv) starts up.
 3. Run `nvm` to see if Node Version Manager (nvm) starts up.
-4. Run `task` to see if Taskwarrior prompts you to generate a config. If not, it is using the config in this repo.
-5. Run `timew` to see if Timewarrior prompts you to generate a config. If not, it is using the config in this repo.
 
 # Uninstall / Cleanup
 If you would like to uninstall my configuration and cleanup your machine, follow the steps below to remove the symlinks created by GNU Stow and delete the local copy of the repo. I'll leave the uninstallation of the other applications up to you.
