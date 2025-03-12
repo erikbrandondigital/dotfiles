@@ -33,7 +33,7 @@ curl -fsSL https://pyenv.run | bash
 printf 'Retrieving & Setting Up Dotfiles...'
 rm -rf ~/.zshrc
 cd ~/.dotfiles
-./scripts/stow.sh
+stow .
 cd ~
 
 # Setup Nerdfont
