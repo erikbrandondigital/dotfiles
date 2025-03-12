@@ -5,25 +5,26 @@ This repo contains all my configuration dot files that I use everyday as a part 
 Below is a list of all the applications, frameworks, and tools with config files included in this repo. If you want to try my config out on your machine, you will need to install these applications. Npiperelay is only necessary if you are on Windows Subsystem for Linux (WSL) and want to share SSH agent keys between the Windows and Linux hosts. I use it to access GitHub SSH keys in KeepassXC running on the Windows Host.
 
 - [Git](https://git-scm.com)
+- [GNU Stow](https://www.gnu.org/software/stow/)
 - [Neovim](https://github.com/neovim/neovim) + [NvChad](https://github.com/NvChad/NvChad)
 - [Node Version Manager (nvm)](https://github.com/nvm-sh/nvm)
 - [npiperelay (Windows Subsystem for Linux (WSL) only)](https://github.com/jstarks/npiperelay)
 - [Python Version Manager (pyenv)](https://github.com/pyenv/pyenv)
 - [Starship](https://github.com/starship/starship)
+- [tmux](https://github.com/tmux/tmux) + [Tmux Plugin Manager (TPM)](https://github.com/tmux-plugins/tpm)
 - [Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) + [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
 
 ## To Dos
 - [ ] Add install scripts for the required applications, frameworks & tools for:
-  - [ ] Windows
   - [ ] MacOS (Homebrew / iTerm2)
-  - [ ] Ubuntu/Debian Linux
-  - [ ] Android (Termux)
+  - [ ] Linux (Ubuntu / Debian / WSL)
+  - [x] Android (Termux)
 - [ ] Add documentation describing each config file and chosen settings
 
 # Requirements
 1. Since I use ZSH with the Oh My ZSH framework you will need to install Zsh & Oh My Zsh. 
     - Follow this [Oh My Zsh Guide](https://github.com/ohmyzsh/ohmyzsh/wiki) to install Zsh & Oh My Zsh.
-2. Install Git, GNU Stow, Neovim, NvChad, Node Version Manager (nvm), Python Version Manager (pyenv).
+2. Install Git, GNU Stow, Neovim, NvChad, Node Version Manager (nvm), Python Version Manager (pyenv), Starship & tmux.
 
 # Install
 1. Clone this repo on your machine to a `.dotfiles` directory:

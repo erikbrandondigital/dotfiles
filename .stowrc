@@ -1,3 +1,2 @@
 --ignore=wsl
 --ignore=scripts
---ignore=.config/tmux

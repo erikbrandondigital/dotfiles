@@ -7,7 +7,7 @@ printf 'Updating Packages...'
 pkg update && pkg upgrade -y
 
 printf 'Installing Required Packages...'
-pkg install -y git neovim starship stow wget zsh
+pkg install -y clang git neovim starship stow tmux wget zsh
 
 # Install Oh My ZSH & Plugins
 printf 'Installing Oh My ZSH...'
@@ -17,6 +17,9 @@ printf 'Installing Oh My ZSH Plugins...'
 git clone --quiet https://github.com/Pilaton/OhMyZsh-full-autoupdate.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/ohmyzsh-full-autoupdate
 git clone --quiet https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone --quiet https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+printf 'Installing tmux Plugin Manager (TPM)'
+git clone --quiet https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 # Install Latest Node Version & Angular CLI
 printf 'Installing NodeJS LTS...'
