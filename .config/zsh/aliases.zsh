@@ -13,6 +13,6 @@ alias update-omz="omz update"
 alias update-pyenv="pyenv update"
 
 # Stow/Unstow Dotfiles
-alias dotfiles-stow="cd ~/.dotfiles && ./scripts/stow.sh"
-alias dotfiles-unstow="cd ~/.dotfiles && ./scripts/unstow.sh"
+alias dotfiles-stow="cd ~/.dotfiles && stow ."
+alias dotfiles-unstow="cd ~/.dotfiles && stow -D ."
 
