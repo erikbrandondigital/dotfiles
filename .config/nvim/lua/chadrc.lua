@@ -14,4 +14,18 @@ M.base46 = {
 	-- },
 }
 
+M.ui = {
+  statusline = {
+    theme = "default",
+    separator_style = "default",
+    order = { "mode", "file", "git", "session", "%=", "lsp_msg", "%=", "diagnostics", "lsp", "cwd", "cursor"},
+    modules = {
+      -- Add auto-session name to statusline.
+      session = function ()
+        return " " .. require('auto-session.lib').current_session_name(true)
+      end
+    }
+  }
+}
+
 return M
