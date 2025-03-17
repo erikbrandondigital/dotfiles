@@ -7,7 +7,7 @@ printf 'Updating Packages...'
 pkg update && pkg upgrade -y
 
 printf 'Installing Required Packages...'
-pkg install -y clang git neovim starship stow tmux wget zsh
+pkg install -y clang git lazygit neovim starship stow tmux wget zsh
 
 # Install Oh My ZSH & Plugins
 printf 'Installing Oh My ZSH...'

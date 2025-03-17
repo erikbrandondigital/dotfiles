@@ -6,6 +6,7 @@ Below is a list of all the applications, frameworks, and tools with config files
 
 - [Git](https://git-scm.com)
 - [GNU Stow](https://www.gnu.org/software/stow/)
+- [LazyGit](https://github.com/jesseduffield/lazygit)
 - [Neovim](https://github.com/neovim/neovim) + [NvChad](https://github.com/NvChad/NvChad)
 - [Node Version Manager (nvm)](https://github.com/nvm-sh/nvm)
 - [npiperelay (Windows Subsystem for Linux (WSL) only)](https://github.com/jstarks/npiperelay)
@@ -19,7 +20,8 @@ Below is a list of all the applications, frameworks, and tools with config files
   - [ ] MacOS (Homebrew / iTerm2)
   - [ ] Linux (Ubuntu / Debian / WSL)
   - [x] Android (Termux)
-- [ ] Add documentation describing each config file and chosen settings
+- [ ] Add a list of plugins for Neovim, Tmux & Oh My ZSH to docs.
+- [ ] Add documentation describing each config file and chosen settings.
 
 # Requirements
 1. Since I use ZSH with the Oh My ZSH framework you will need to install Zsh & Oh My Zsh. 

@@ -2,5 +2,10 @@
 	editor = nvim
 [commit]
 	template = ~/.gitmessage
+  gpgsign = true
+[gpg]
+  format = ssh
 [init]
 	defaultbranch = main
+[gpg "ssh"]
+	allowedSignersFile = ~/.ssh/allowed_signers
