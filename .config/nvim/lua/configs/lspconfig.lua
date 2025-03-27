@@ -1,7 +1,8 @@
 -- load defaults i.e lua_lsp
 require("nvchad.configs.lspconfig").defaults()
-
 local lspconfig = require "lspconfig"
+local nvlsp = require "nvchad.configs.lspconfig"
+local M = require "chadrc"
 
 -- LSP servers to install
 local servers = {
@@ -14,7 +15,13 @@ local servers = {
   "angularls",
   "emmet_ls",
 }
-local nvlsp = require "nvchad.configs.lspconfig"
+
+-- Install prettierd in Mason (not included in Lazy)
+M.mason = {
+  pkgs = {
+    "prettierd",
+  },
+}
 
 -- lsps with default config
 for _, lsp in ipairs(servers) do
