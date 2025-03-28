@@ -5,6 +5,3 @@ source "$HOME/.config/zsh/neovim.zsh"
 source "$HOME/.config/zsh/npiperelay-ssh-agent.zsh"
 source "$HOME/.config/zsh/nvm.zsh"
 source "$HOME/.config/zsh/pyenv.zsh"
-
-# Load Angular CLI autocompletion.
-source <(ng completion script)

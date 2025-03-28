@@ -21,7 +21,7 @@ git clone --quiet https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH
 printf 'Installing tmux Plugin Manager (TPM)'
 git clone --quiet https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
-# Install Latest Node Version & Angular CLI
+# Install Latest Node Version
 printf 'Installing NodeJS LTS...'
 pkg install -y nodejs-lts
 
@@ -50,5 +50,4 @@ termux-reload-settings
 
 # Install Latest NodeJS & Python
 printf 'Installing latest NodeJS & Python...'
-npm install -g @angular/cli
 # pyenv install 3
