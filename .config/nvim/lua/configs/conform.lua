@@ -1,12 +1,12 @@
 local options = {
   formatters_by_ft = {
     lua = { "stylua" },
-    html = { "prettierd" },
-    javascript = { "prettierd" },
-    javascriptreact = { "prettierd" },
-    markdown = { "prettierd" },
-    typescript = { "prettierd" },
-    typescriptreact = { "prettierd" },
+    html = { "prettier" },
+    javascript = { "prettier" },
+    javascriptreact = { "prettier" },
+    markdown = { "prettier" },
+    typescript = { "prettier" },
+    typescriptreact = { "prettier" },
     ["*"] = { "trim_whitespace" },
   },
 

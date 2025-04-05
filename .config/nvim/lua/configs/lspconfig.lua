@@ -19,7 +19,7 @@ local servers = {
 -- Install prettierd in Mason (not included in Lazy)
 M.mason = {
   pkgs = {
-    "prettierd",
+    "prettier",
   },
 }
 
