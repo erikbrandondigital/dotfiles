@@ -18,3 +18,6 @@ map("n", "<c-j>", "<cmd>:TmuxNavigateDown<cr>")
 map("n", "<c-k>", "<cmd>:TmuxNavigateUp<cr>")
 map("n", "<c-l>", "<cmd>:TmuxNavigateRight<cr>")
 map("n", "<c-\\>", "<cmd>:TmuxNavigatePrevious<cr>")
+
+--- Configures keymap for LSP Code Actions
+map("n", "<leader>ca", vim.lsp.buf.code_action, { desc = "LSP Code Action" })
