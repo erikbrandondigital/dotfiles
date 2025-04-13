@@ -7,6 +7,7 @@ local options = {
     markdown = { "prettier" },
     typescript = { "prettier" },
     typescriptreact = { "prettier" },
+    python = { "black" },
     ["*"] = { "trim_whitespace" },
   },
 

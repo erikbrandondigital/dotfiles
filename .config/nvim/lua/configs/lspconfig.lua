@@ -16,10 +16,11 @@ local servers = {
   "emmet_ls",
 }
 
--- Install prettierd in Mason (not included in Lazy)
+-- Install prettier in Mason (not included in Lazy)
 M.mason = {
   pkgs = {
     "prettier",
+    "black",
   },
 }
 

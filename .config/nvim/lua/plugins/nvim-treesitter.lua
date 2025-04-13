@@ -10,6 +10,7 @@ return {
         "css",
         "twig",
         "angular",
+        "python",
       },
     },
   },
