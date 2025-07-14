@@ -17,9 +17,5 @@ alias update-pyenv="pyenv update"
 alias dotfiles-stow="cd ~/.dotfiles && stow ."
 alias dotfiles-unstow="cd ~/.dotfiles && stow -D ."
 
-# Replace cat with bat (bat on Mac OS & batcat on Ubuntu/Debian Linux)
-if command -v bat >/dev/null 2>&1; then
-  alias cat='bat --paging=never'
-else
-  alias cat='batcat --paging=never'
-fi
+# Replace cat with bat
+alias cat='bat --paging=never'
