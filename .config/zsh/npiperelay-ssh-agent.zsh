@@ -1,10 +1,10 @@
 # NPIPERELAY Setup for KeepassXC SSH Agent on Windows Subsystem for Linux (WSL)
 # - Provides access to Windows SSH Agent from WSL and enables sharing of SSH Keys stored in KeepassXC.
 
-# Check if current Kernel Version is Windows Subsystem for Linux (WSL). 
+# Check if current Kernel Version is Windows Subsystem for Linux (WSL).
 if [ $(uname -r | sed -n 's/.*\( *Microsoft *\).*/\1/ip') ];
 then
- 
+
   export SSH_AUTH_SOCK=$HOME/.ssh/agent.sock
   ss -a | grep -q $SSH_AUTH_SOCK
   if [ $? -ne 0 ]; then
@@ -14,7 +14,5 @@ then
   fi
 
   echo "WSL Detected -- Loaded NPIPERELAY SSH Agent"
-else
-  echo "WSL Not Detected -- Skipped NPIPERELAY SSH Agent"
 fi
 
