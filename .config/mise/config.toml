@@ -1,6 +1,8 @@
 [tools]
+bat = "latest"
 node = "lts"
 python = "3"
+ripgrep = "latest"
 ruby = "3"
 usage = "latest"
 
