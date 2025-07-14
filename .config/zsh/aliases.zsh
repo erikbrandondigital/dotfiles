@@ -1,5 +1,6 @@
 # Reload ZSH Config
-alias reload-zsh="source ~/.zshrc"
+alias zsh-reload="source ~/.zshrc"
+alias zsh-clear-history="history -p"
 
 # Config-related Shortcuts
 alias config-zsh="nvim ~/.zshrc"
