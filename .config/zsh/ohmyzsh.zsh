@@ -1,6 +1,6 @@
 # Set Theme & Plugins
 ZSH_Theme=""
-plugins=(git nvm ohmyzsh-full-autoupdate starship sudo tmux zsh-autosuggestions zsh-syntax-highlighting web-search)
+plugins=(git mise nvm ohmyzsh-full-autoupdate starship sudo tmux zsh-autosuggestions zsh-syntax-highlighting web-search)
 
 export ZSH="$HOME/.oh-my-zsh"
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST # Customize ZSH Completion Cache Location
