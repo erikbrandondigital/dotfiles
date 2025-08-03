@@ -14,6 +14,8 @@ local servers = {
   "twiggy_language_server",
   "angularls",
   "emmet_ls",
+  "ruby_lsp",
+  "eslint",
 }
 
 -- Install prettier in Mason (not included in Lazy)

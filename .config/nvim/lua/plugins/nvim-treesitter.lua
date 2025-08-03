@@ -11,6 +11,7 @@ return {
         "twig",
         "angular",
         "python",
+        "ruby",
       },
     },
   },
