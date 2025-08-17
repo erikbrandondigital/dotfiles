@@ -9,9 +9,13 @@ ripgrep = "latest"
 ruby = "3"
 starship = "latest"
 usage = "latest"
+uv = "latest"
 
 [settings]
 idiomatic_version_file_enable_tools = ["ruby", "node", "python"]
 
 [settings.ruby]
 default_packages_file = "~/.config/mise/.default-gems"
+
+[settings.python]
+uv_venv_auto = true
