@@ -21,3 +21,8 @@ map("n", "<c-\\>", "<cmd>:TmuxNavigatePrevious<cr>")
 
 --- Configures keymap for LSP Code Actions
 map("n", "<leader>ca", vim.lsp.buf.code_action, { desc = "LSP Code Action" })
+
+--- Configures keymap to open vim diagnostic floating windows.
+map("n", "<leader>cd", function()
+  vim.diagnostic.open_float(nil, { focus = false })
+end, { desc = "Open Diagnostic Float" })
