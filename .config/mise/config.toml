@@ -19,3 +19,5 @@ default_packages_file = "~/.config/mise/.default-gems"
 
 [settings.python]
 uv_venv_auto = true
+uv_venv_create_args = ['--seed']
+
