@@ -1,4 +1,5 @@
 [wsl2]
 networkingMode=mirrored
+dnsTunneling=true
 [experimental]
 hostAddressLoopback=true
