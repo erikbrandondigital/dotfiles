@@ -1,8 +1,10 @@
 [tools]
 bat = "latest"
 ffmpeg = "latest"
+gh = "latest"
 lazydocker = "latest"
 lazygit = "latest"
+lnav = "latest"
 neovim = "latest"
 node = "lts"
 python = "3"
