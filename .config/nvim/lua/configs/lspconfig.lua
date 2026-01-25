@@ -8,6 +8,7 @@ local servers = {
   "cssls",
   "ts_ls",
   "pyright",
+  "clangd",
   "tailwindcss",
   "twiggy_language_server",
   "angularls",
