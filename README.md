@@ -10,10 +10,8 @@ With this setup I am able to make changes to my configuration at a moments notic
 
 Below is a list of all the applications, frameworks, programming languages, and tools with config files included in this repo. If you want to try my config out on your machine, you will need to install these applications. But don't worry most of them are installed by Mise-en-place and other package managers.
 
-Note: Npiperelay is only necessary if you are on Windows Subsystem for Linux (WSL) and want to share SSH agent keys between the Windows and Linux hosts. I use it to access GitHub SSH keys in KeepassXC running on the Windows Host.
-
 > [!NOTE]
-> Indented bullets represent plugins listed underneath their parent software that will be installed by a package manager. (Examples: Tmux Plugin Manager (TPM), Lazy, Oh My Zsh)
+> Npiperelay is only necessary if you are on Windows Subsystem for Linux (WSL) and want to share SSH agent keys between the Windows and Linux hosts. I use it to access GitHub SSH keys in KeepassXC running on the Windows Host.
 
 | Programming Languages                 | Installed by Mise |
 | ------------------------------------- | :---------------: |
@@ -21,6 +19,9 @@ Note: Npiperelay is only necessary if you are on Windows Subsystem for Linux (WS
 | [Python](https://www.python.org)      |        ✅         |
 | [Ruby](https://www.ruby-lang.org/en/) |        ✅         |
 | [Rust](https://rust-lang.org)         |        ✅         |
+
+> [!NOTE]
+> Indented bullets represent plugins listed underneath their parent software that will be installed by a package manager. (Examples: Tmux Plugin Manager (TPM), Lazy, Oh My Zsh)
 
 | Tools & Utilities                                                                            | Installed by Mise | Installed by Lazy | Installed by TPM | Installed by Oh My ZSH |
 | -------------------------------------------------------------------------------------------- | :---------------: | :---------------: | :--------------: | :--------------------: |
