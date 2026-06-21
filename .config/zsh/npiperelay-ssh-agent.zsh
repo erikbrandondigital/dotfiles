@@ -6,7 +6,7 @@ if [ $(uname -r | sed -n 's/.*\( *Microsoft *\).*/\1/ip') ];
 then
 
   export SSH_AUTH_SOCK=$HOME/.ssh/agent.sock
-  ss -a | grep -q $SSH_AUTH_SOCK
+  ss -a 2>/dev/null | grep -Fq $SSH_AUTH_SOCK
   if [ $? -ne 0 ]; then
     rm -f $SSH_AUTH_SOCK
     npiperelaypath=$(wslpath "C:/npiperelay")
